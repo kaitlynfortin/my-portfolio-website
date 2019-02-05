@@ -21,25 +21,28 @@ body {
 
 /***** HEADER *****/
 #header {
-    height: 800px;
-    background: url('../img/hero-image.png');
+    height: 550px;
+    background: url('../img/header-image.jpeg');
     background-size: cover;
 }
 h1 {
     font-size: 60px;
     font-family: 'Roboto Slab', bold, serif;
     font-weight: 700;
-    text-align: center;
-    color: #bdbf09;
-    padding: 350px 200px 0px 200px;
+    text-align: right;
+    color: #849974;
+    padding-right: 40px;
+    padding: 100px 40px 0px 0px;
+    margin-top: 0px;
+
 }
 h2 {
     font-size: 48px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    text-align: center;
-    color: #087e8b;
-    padding: 0px 200px 0px 200px;
+    text-align: right;
+    color: #613A43;
+    padding: 0px 40px 0px 600px;
 
 }
 
@@ -52,7 +55,7 @@ h2 {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     text-align: center;
-    color: #095156;
+    color: #36384C;
 }
 #portfolio-1 img {
     width: 450px;
@@ -62,14 +65,14 @@ h2 {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color: #095156;
+    color: #36384C;
     margin: 20px 50px 0px 50px;
 }
 #portfolio-1 p {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: #095156;
+    color: #36384C;
     margin: 0px 50px 0px 50px;
 }
 
@@ -81,7 +84,7 @@ h2 {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     text-align: center;
-    color: #095156;
+    color: #36384C;
 }
 #portfolio-2 img {
     width: 450px;
@@ -91,22 +94,22 @@ h2 {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color: #095156;
+    color: #36384C;
     margin: 20px 50px 0px 50px;
 }
 #portfolio-2 p {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: #095156;
+    color: #36384C;
     margin: 0px 50px 0px 50px;
 
 }
 
 /***** ABOUT *****/
 #about {
-    height: 650px;
-    background-color: #087e8b;
+    height: 550px;
+    background-color: #e9dccd;
     margin: 0px;
 }
 #about h5 {
@@ -114,7 +117,8 @@ h2 {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     text-align: center;
-    color: #ffffff;
+    color: #36384C;
+    padding-top: 40px;
 }
 #about img {
     width: 550px;
@@ -124,7 +128,7 @@ h2 {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: #ffffff;
+    color: #36384C;
 }
 #about .half-width {
     float: left;
@@ -133,7 +137,7 @@ h2 {
 /***** CONTACT *****/
 #contact {
     height: 400px;
-    background-color: #095156;
+    background-color: #613a43;
 }
 #contact h6 {
     font-size: 36px;
@@ -142,6 +146,7 @@ h2 {
     text-align: center;
     color: #ffffff;
     margin-top: 0;
+    padding-top: 40px;
 }
 #contact p {
     font-size: 24px;
@@ -153,21 +158,28 @@ h2 {
 #contact .third-width {
     text-align: center;
 }
+#contact ul {
+    padding-left: 0px;
+}
 
 #contact ul li {
     display: inline-block;
     padding: 10px;
+    text-align: center;
 }
 #contact a {
-    color: #bdbf09;
+    color: #849974;
     text-decoration: none;
 }
 
 
 /***** FOOTER *****/
-#copy-right {
-    font-size: 18px;
-    background-color: #095156;
-    color: #ffffff;
+#copy-right p {
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #000000;
     text-align: center;
+    padding: 12px;
+    margin-top: 0px;
+    margin-bottom: 0 px;
 }
