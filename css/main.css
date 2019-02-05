@@ -1,0 +1,143 @@
+body {
+   font-family:'Roboto', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+}
+
+.third-width {
+    width: 33.33%;
+    float: left;
+}
+
+/***** HEADER *****/
+#header {
+    height: 800px;
+    background: url('../img/hero-image.png');
+    background-size: cover;
+}
+h1 {
+    font-size: 60px;
+    font-family: 'Roboto Slab', bold, serif;
+    font-weight: 700;
+    text-align: center;
+    color: #bdbf09;
+    padding: 350px 200px 0px 200px;
+}
+h2 {
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #087e8b;
+    padding: 0px 200px 0px 200px;
+
+}
+
+/***** WORK *****/
+#work {
+    height: 1150px;
+}
+#work h3 {
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    text-align: center;
+    color: #095156;
+}
+#work img {
+    width: 450px;
+    margin: 0px 50px 0px 50px;
+}
+#work h4 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #095156;
+}
+#work p {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #095156;
+    padding: 0px 0px 200px 0px;
+    margin: 0px 50px 0px 0px;
+}
+
+
+/***** ABOUT *****/
+#about {
+    height: 650px;
+    background-color: #087e8b;
+    margin: 0px;
+}
+#about h5 {
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+}
+#about img {
+    width: 550px;
+    margin: 0px 50px 0px 50px;
+}
+#about p {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+#about .half-width {
+    float: left;
+}
+
+/***** CONTACT *****/
+#contact {
+    height: 400px;
+    background-color: #095156;
+}
+#contact h6 {
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+}
+#contact p {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 10px;
+}
+#contact .third-width {
+    text-align: center;
+}
+
+#contact ul li {
+    display: inline-block;
+    padding: 10px;
+}
+#contact a {
+    color: #bdbf09;
+    text-decoration: none;
+}
+
+
+/***** FOOTER *****/
+#copy-right {
+    font-size: 18px;
+    background-color: #095156;
+    color: #ffffff;
+    text-align: center;
+}
