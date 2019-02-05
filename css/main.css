@@ -43,36 +43,65 @@ h2 {
 
 }
 
-/***** WORK *****/
-#work {
-    height: 1150px;
+/***** Portfolio *****/
+#portfolio-1 {
+    height: 600px;
 }
-#work h3 {
+#portfolio-1 h3 {
     font-size: 36px;
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     text-align: center;
     color: #095156;
 }
-#work img {
+#portfolio-1 img {
     width: 450px;
     margin: 0px 50px 0px 50px;
 }
-#work h4 {
+#portfolio-1 h4 {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #095156;
+    margin: 20px 50px 0px 50px;
 }
-#work p {
+#portfolio-1 p {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #095156;
-    padding: 0px 0px 200px 0px;
-    margin: 0px 50px 0px 0px;
+    margin: 0px 50px 0px 50px;
 }
 
+#portfolio-2 {
+    height: 600px;
+}
+#portfolio-2 h3 {
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    text-align: center;
+    color: #095156;
+}
+#portfolio-2 img {
+    width: 450px;
+    margin: 0px 50px 0px 50px;
+}
+#portfolio-2 h4 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #095156;
+    margin: 20px 50px 0px 50px;
+}
+#portfolio-2 p {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #095156;
+    margin: 0px 50px 0px 50px;
+
+}
 
 /***** ABOUT *****/
 #about {
