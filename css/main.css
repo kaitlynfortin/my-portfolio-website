@@ -70,63 +70,35 @@ h1 {
 }
 
 /***** Portfolio *****/
-#portfolio-1 {
-    height: 600px;
+#portfolio {
+    height: 550px;
+    text-align: center;
 }
-#portfolio-1 h3 {
+#portfolio h3 {
     font-size: 36px;
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     text-align: center;
     color: #322214;
 }
-#portfolio-1 img {
-    width: 450px;
-    margin: 0px 50px 0px 50px;
-}
-#portfolio-1 h4 {
+#portfolio h4 {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #322214;
     margin: 20px 50px 0px 50px;
 }
-#portfolio-1 p {
+#portfolio p {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #322214;
-    margin: 0px 50px 0px 50px;
 }
-    
-#portfolio-2 {
-    height: 450px;
-}
-#portfolio-2 h3 {
-    font-size: 36px;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 700;
+#portfolio img {
+    width: 400px;
     text-align: center;
-    color: #322214;
 }
-#portfolio-2 img {
-    width: 450px;
-    margin: 0px 50px 0px 50px;
-}
-#portfolio-2 h4 {
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    color: #322214;
-    margin: 20px 50px 0px 50px;
-}
-#portfolio-2 p {
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color: #322214;
-    margin: 0px 50px 0px 50px;
-}
+
     
 /***** ABOUT *****/
 #about {
