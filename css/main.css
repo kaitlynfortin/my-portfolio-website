@@ -7,6 +7,7 @@ body {
 .full-width {
     width: 100%;
     margin: 0 auto;
+
 }
 
 .half-width {
@@ -49,9 +50,10 @@ h1 {
     background-color: #93A3B1;
     height: 300px;
     text-align: center;
+    overflow: inherit;
 }
 #skills img {
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
 }
 #skills h3 {
@@ -67,6 +69,7 @@ h1 {
     color: #322214;
     margin: 0px 50px;
 }
+
 
 /***** Portfolio *****/
 #portfolio {
