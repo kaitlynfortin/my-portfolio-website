@@ -31,17 +31,17 @@ h1 {
     font-weight: 700;
     text-align: right;
     color: #7C898B;
-    padding-right: 40px;
     padding: 100px 40px 0px 0px;
     margin-top: 0px;
 }
  h2 {
     font-size: 48px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     text-align: right;
     color: #322214;
-    padding: 0px 40px 0px 600px;
+    padding-left: 50%;
+    padding-right: 40px;
+
 }
 
 /***** SKILLS *****/
@@ -63,10 +63,9 @@ h1 {
 }
 #skills p {
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #322214;
-    margin: 0px 50px 0px 50px;
+    margin: 0px 50px;
 }
 
 /***** Portfolio *****/
@@ -83,19 +82,17 @@ h1 {
 }
 #portfolio h4 {
     font-size: 24px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #322214;
     margin: 20px 50px 0px 50px;
 }
 #portfolio p {
     font-size: 24px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #322214;
 }
 #portfolio img {
-    width: 400px;
+    width: 85%;
     text-align: center;
 }
 
@@ -115,12 +112,11 @@ h1 {
     padding-top: 40px;
 }
 #about img {
-    width: 550px;
-    margin: 0px 50px 0px 50px;
+    width: 85%;
+    margin: 0px 50px;
 }
 #about p {
     font-size: 24px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #322214;
 }
@@ -133,7 +129,7 @@ h1 {
     height: 300px;
     background-color: #7C898B;
 }
-#contact h6 {
+#contact h5 {
     font-size: 36px;
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
@@ -145,7 +141,6 @@ h1 {
 }
 #contact p {
     font-size: 24px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #ffffff;
     line-height: 10px;
@@ -165,11 +160,12 @@ h1 {
     color: #36384C;
     text-decoration: none;
 }
-#contact h7 {
+#contact h6 {
     font-size: 24px;
     font-style: italic;
     color: #ffffff;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
     
     
