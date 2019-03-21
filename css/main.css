@@ -31,7 +31,7 @@ h1 {
     font-family: 'Roboto Slab', bold, serif;
     font-weight: 700;
     text-align: right;
-    color: #7C898B;
+    color: #1E1E24;
     padding: 100px 40px 0px 0px;
     margin-top: 0px;
 }
@@ -40,20 +40,20 @@ h1 {
     font-weight: 400;
     text-align: right;
     color: #322214;
-    padding-left: 50%;
+    padding-left: 0;
     padding-right: 40px;
 
 }
 
 /***** SKILLS *****/
 #skills {
-    background-color: #93A3B1;
+    background-color: #f6f8fa;
     height: 350px;
     text-align: center;
     overflow: inherit;
 }
 #skills img {
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: center;
 }
 #skills h3 {
@@ -103,7 +103,7 @@ h1 {
 /***** ABOUT *****/
 #about {
     height: 550px;
-    background-color: #93A3B1;
+    background-color: #F6F8FA;
     margin: 0px;
 }
 #about h5 {
@@ -130,7 +130,7 @@ h1 {
 /***** CONTACT *****/
 #contact {
     height: 300px;
-    background-color: #7C898B;
+    background-color: #1E1E24;
 }
 #contact h5 {
     font-size: 36px;
@@ -160,7 +160,7 @@ h1 {
     text-align: center;
 }
 #contact a {
-    color: #36384C;
+    color: #ffffff;
     text-decoration: none;
 }
 #contact h6 {
