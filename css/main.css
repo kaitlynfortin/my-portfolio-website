@@ -1,3 +1,7 @@
+html {
+    font-size: 16px;
+}
+
 body {
     font-family:'Roboto', sans-serif;
 }
@@ -7,7 +11,6 @@ body {
 .full-width {
     width: 100%;
     margin: 0 auto;
-
 }
 
 .half-width {
@@ -26,8 +29,9 @@ body {
     background: url('../img/header-image.jpeg');
     background-size: cover;
 }
+
 h1 {
-    font-size: 60px;
+    font-size: 3.75em;
     font-family: 'Roboto Slab', bold, serif;
     font-weight: 700;
     text-align: right;
@@ -35,8 +39,9 @@ h1 {
     padding: 100px 40px 0px 0px;
     margin-top: 0px;
 }
+
  h2 {
-    font-size: 48px;
+    font-size: 1.85em;
     font-weight: 400;
     text-align: right;
     color: #322214;
@@ -48,52 +53,71 @@ h1 {
 /***** SKILLS *****/
 #skills {
     background-color: #f6f8fa;
-    height: 350px;
     text-align: center;
     overflow: inherit;
 }
+
 #skills img {
     margin-top: 40px;
     text-align: center;
 }
+
 #skills h3 {
-    font-size: 20px;
+    font-size: 1.25em;
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     text-align: center;
     color: #322214;
 }
+
 #skills p {
-    font-size: 18px;
+    font-size: 1.5em;
     font-weight: 400;
     color: #322214;
     margin: 0px 50px;
 }
 
+#skills .skill-item-description {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    font-size: 2.2em;
+}
+
+
+#skills .fontawesome-icon {
+    font-size: 3em;
+}
 
 /***** Portfolio *****/
 #portfolio {
     height: 550px;
     text-align: center;
 }
+
 #portfolio h3 {
-    font-size: 36px;
+    font-size: 2.25em;
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     text-align: center;
     color: #322214;
 }
+
 #portfolio h4 {
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 700;
     color: #322214;
     margin: 20px 50px 0px 50px;
 }
+
 #portfolio p {
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 400;
     color: #322214;
 }
+
 #portfolio img {
     width: 85%;
     text-align: center;
@@ -106,23 +130,28 @@ h1 {
     background-color: #F6F8FA;
     margin: 0px;
 }
+
 #about h5 {
-    font-size: 36px;
+    font-size: 2.25em;
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     text-align: center;
     color: #322214;
     padding-top: 40px;
 }
+
 #about img {
     width: 85%;
     margin: 0px 50px;
 }
+
 #about p {
-    font-size: 24px;
+    font-size: 1.5em;;
     font-weight: 400;
     color: #322214;
+    margin: 0px;
 }
+
 #about .half-width {
     float: left;
 }
@@ -131,9 +160,14 @@ h1 {
 #contact {
     height: 300px;
     background-color: #1E1E24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
+
 #contact h5 {
-    font-size: 36px;
+    font-size: 2.25em;
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
     text-align: center;
@@ -142,39 +176,48 @@ h1 {
     margin-bottom: 25px;
     padding-top: 40px;
 }
+
 #contact p {
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 400;
     color: #ffffff;
     line-height: 10px;
 }
+
 #contact .third-width {
     text-align: center;
 }
+
 #contact ul {
     padding-left: 0px;
+    margin: 0px;
 }
+
 #contact ul li {
     display: inline-block;
-    padding: 10px;
+    padding-left: 10px;
     text-align: center;
+    font-size: 2em;
 }
+
 #contact a {
     color: #ffffff;
     text-decoration: none;
 }
+
 #contact h6 {
-    font-size: 24px;
+    font-size: 1.5em;
     font-style: italic;
     color: #ffffff;
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
     
     
 /***** FOOTER *****/
 #copy-right p {
-    font-size: 14px;
+    font-size: 0.875em;
     background-color: #ffffff;
     color: #000000;
     text-align: center;
